@@ -1,0 +1,90 @@
+#logo {
+    padding-top: 13px;
+    width: 80%;
+    display: none;
+}
+
+#logo_i {
+    margin-left: 45px;
+    margin-bottom: -15px;
+    width: 60%;
+}
+
+#logo_l {
+    margin-left: 32px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+#boton-desplegable {
+    color: #771A19;
+    font-weight: 590;
+}
+
+#rows {
+    margin: 25px;
+}
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+
+/* APARTADO DE HISTORIA */
+
+#titulo {
+    color: #411913;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+#texto {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #411913;
+}
+
+.titulo-card {
+    margin-top: -5px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+    #logo_i {
+        margin-left: 80px;
+        margin-bottom: -15px;
+        width: 40%;
+    }
+    #logo_l {
+        margin-left: 52px;
+        width: 60%;
+    }
+    #logo {
+        padding-top: 13px;
+        width: 80%;
+        display: initial;
+    }
+    #rows {
+        margin: 15px;
+    }
+    #texto {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #411913;
+    }
+}
+
+.equipo {
+    width: 60%;
+}
