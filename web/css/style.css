@@ -1,7 +1,6 @@
 #logo {
-    padding-top: 13px;
-    width: 80%;
-    display: none;
+    padding-top: 5px;
+    width: 35%;
 }
 
 #logo_i {
@@ -23,12 +22,6 @@
 
 #rows {
     margin: 25px;
-}
-
-header,
-main,
-footer {
-    padding-left: 300px;
 }
 
 
@@ -53,6 +46,43 @@ footer {
     font-weight: 600;
 }
 
+
+/* APARTADO DE EQUIPO */
+
+.equipo {
+    width: 45%;
+}
+
+.fondo-imagen {
+    margin-left: 110px;
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    transition: 0.3s;
+    border-radius: 300px;
+}
+
+.fondo-imagen img {
+    margin-top: 25px;
+    width: 150px;
+}
+
+.fondo-imagen:hover {
+    background-color: #6D4C41;
+    transition: 0.3s;
+    z-index: 10;
+    border-radius: 300px;
+}
+
+#nombre-equipo {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* APARTADO DE PRODUCTOS */
+
 @media only screen and (max-width: 992px) {
     header,
     main,
@@ -69,13 +99,14 @@ footer {
         width: 60%;
     }
     #logo {
-        padding-top: 13px;
-        width: 80%;
+        padding-top: 3px;
+        width: 32%;
         display: initial;
     }
     #rows {
         margin: 15px;
     }
+    /* APARTADO DE NOSOTROS */
     #texto {
         padding-left: 15px;
         padding-right: 15px;
@@ -83,8 +114,34 @@ footer {
         font-weight: 400;
         color: #411913;
     }
+    /* APARTADO DE EQUIPO */
+    .fondo-imagen {
+        margin-left: 93px;
+        width: 120px;
+        height: 120px;
+    }
+    .fondo-imagen img {
+        margin-top: 10px;
+        width: 100px;
+    }
+    #nombre-equipo {
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    /* APARTADO DE PRODUCTOS */
 }
 
-.equipo {
-    width: 60%;
+@media only screen and (min-width: 993px) {
+    nav a.sidenav-trigger {
+        display: inline;
+    }
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
